@@ -12,7 +12,7 @@ int main(){
     for (int j=0;j<40;j++){
     double S=0,E,a=3,b=5,x=a;
     double H=(b-a)/N;
-    double SPerf=6.666666666666;
+    double SPerf=6.666666666666;//Точное значение левой части
 
     //Левые прямоугольники
 /*    for(int i=0;i<N-1;i++){
